@@ -1,4 +1,4 @@
-> <h1> Mi repositorio para el Reto 1</h1>
+> # Mi repositorio para el Reto 1 
 > ## Conceptos básicos de Azure
 > - <p>Computo <br>
 > Un equipo de computo es un dispositivo electrónico que cuenta con una tarjeta madre que es la que controla los demás componentes del equipo, un procesador, una memoria RAM (almacenamiento temporal de la información), Memoria de almacenamiento (donde se guarda la infomación del usuario y del sistema) y sofrware que es la conección entre el usuario y el equipo, gracias al cual el usuario puede asignar órdenes al equipo para realizar procesos. </p>
