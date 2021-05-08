@@ -5,7 +5,9 @@ Un equipo de computo es un dispositivo electrónico que cuenta con una tarjeta m
 Esta es la estructura base de un equipo de computo, dependiendo del tipo de equipo puede estar acompañando en un teclado, ratón y monitor o solamente una pantalla tactil que suple las funciones del teclado y ratón como es el caso de los celulares y tabletas. </p>
 ![partes de la computadora](/fotos/principales-partes-del-computador.jpg)
 - <p>Comunicación entre equipos de computo <br>
-Los equipos de computo pueden comunicarse o transmitir información principalmente a través de señales infrarojas (en el pasado), por señales de radio bluethood y redes (eternet y wifi) </p>
+Los equipos de computo pueden comunicarse o transmitir información principalmente a través de señales infrarojas (en el pasado), por señales de radio bluethood y redes (eternet y wifi). Además para que los equipos de computo se puedan comunicar requierende un lenguaje o protocolo de comunicación </p>
+La comunicación por medio de redes es la que permite la transferencia de datos con la mayor velocidad y es la más utilizada en la comunicación entre computadoras. </p>
+El lenguaje de comunicación se conoce como TCP/IP (Protocolo de Control de Transmisión/Protocolo de Internet). 
 
 - nube
 ![nube](/fotos/AzureNube.jpg)
