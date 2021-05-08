@@ -9,13 +9,13 @@
 La comunicación por medio de redes es la que permite la transferencia de datos con la mayor velocidad y es la más utilizada en la comunicación entre computadoras. </p>
 El lenguaje de comunicación se conoce como TCP/IP (Protocolo de Control de Transmisión/Protocolo de Internet). Mediante este leguaje se pueden transferir datos entre equipos de computo dentro de una misma infraestructura 8red local) o servidor y por medio de internet entre diferentes infraestructuras o servidores los cuales pueden estar ubicados incluso continentes diferentes, además esta comunicación permite que de manera remota se pueda operar un equipo de computo desde otra ubicación física </p>
 El modelo OSI explica las redes de comunicación en 7 capas o niveles: </p>
--- Nivel físico: Señal y transmisión binaria </p>
--- Nivel de enlace de datos: direccionamiento físico </p>
--- Nivel red: Determinación de rutae IP (direccionamiento lógico) </p>
--- Nivel de transporte: conexión extremo- extremo y fiabilidad de los datos </p>
--- Nivel sesión: comunicación entre dispositivos de la red </p>
--- Nivel de Presentación: Representación de los datos </p>
--- Nivel aplicación: servicios de red a aplicaciones </p>
+    - Nivel físico: Señal y transmisión binaria </p>
+    - Nivel de enlace de datos: direccionamiento físico </p>
+    - Nivel red: Determinación de rutae IP (direccionamiento lógico) </p>
+    - Nivel de transporte: conexión extremo- extremo y fiabilidad de los datos </p>
+    - Nivel sesión: comunicación entre dispositivos de la red </p>
+    - Nivel de Presentación: Representación de los datos </p>
+    - Nivel aplicación: servicios de red a aplicaciones </p>
 > 
 > - <p> Nube <br>
 Conocido como el computo en la nube, es un sevicio que permite la disponibilidad y uso de recursos de almacenamiento y capacidad de computo, como memoria RAM y procecadores, de forma remota desde otro dispositivo de computo mediante el uso de redes. </p>
@@ -24,35 +24,35 @@ Pero el almacenamiento no es lo único, también se puede usar de forma remota q
 Por último otro de los servición de la nube es el uso de aplicaciones especializadas. <p>
 Existen tres tipos de nubes: <p>
 > ![nube](/fotos/AzureNube.jpg)
-> - - <p> Nube privada: <br> 
+>   - <p> Nube privada: <br> 
 Una persona, organización o empresa es dueña de la infraestructura, es decir, de los servidores, el espacio físico donde estos se encuentran, se encarga del software y su configuración. El uso de este recurso es restringido y el mantenimiento es responsabilidad del dueño de la nube </p>
--- Nube pública: </p>
+    - Nube pública: </p>
 Se denomina así cuando los recursos y servicios de la nube están a disposición de cualquier usuario que desee contratar dicho servicio. Bajo este esquema el mantenimiento de la nube corre bajo la responsabilidad del dueño de la nube y el usuario no tiene de que preocuparse por eso. </p>
--- Nube híbrida </p>
+    - Nube híbrida </p>
 En este esquema el usuario (organización o empresa) es dueño de su nube pero además contrata los servicios de una nube pública para y correr algunas aplicaciones en estos servidores, de esta forma el usuario pude incrementar su capacidad de operación cuando lo requiera. </p>
 > - Servicios que ofrece las nubes
-    <p> -- IAAS: Infraestructura como servicio <br>
+    <p> - IAAS: Infraestructura como servicio <br>
     La nube provee el servidor, maquina virtual con la memoria y procesamiento deseado pero el software y configuración corren por cuenta del usuario </p>
-    -- PAAS: Plataforma como servicio </p>
+        - PAAS: Plataforma como servicio </p>
     La nube provee el servidor, memoria, procesamiento y sistema operativo pero el usuario debe instalar sus aplicaciones así como encargarse de toda la configuración de estas </p>
-    -- SAAS: Software como servicio </p>
+        - SAAS: Software como servicio </p>
     La nube provee tanto la infraestructura como el software que neesita el usuario para correr sus procesos </p>
 > 
 > ### Servicios Azure
 > Azure es la nube de Microsoft que permite el uso de recursos y aplicaciones al rededor del mundo. Azure provee más de 100 servicios que permiten hacer cualquier cosa desde correr una aplicación existente hasta explorar nuevos paradigmas en software como inteligancia artificial y realidad aumentada.
 >   Los servicios más utilizados de Azure se pueden resumir de la siguiente forma:
 > - Servicios de infraestructura
-> -- Computo: Maquinas vituales y Contenedores
-> -- Almacenamiento: BLOB Storage, Azzure files, Premium Storage
-> -- Redes: Virtual Network, Load Balancer, DNS, Express Router, Traffic Manager, VPN Gateway y Application Gateway
+>   - Computo: Maquinas vituales y Contenedores
+>   - Almacenamiento: BLOB Storage, Azzure files, Premium Storage
+>   - Redes: Virtual Network, Load Balancer, DNS, Express Router, Traffic Manager, VPN Gateway y Application Gateway
 > - Servicios de plataforma
-> -- Computo: Cloud Services, Services Fabric, Batch y Remote App
-> -- Web and mobile: Web Apps, API Apps, API Managment, Mobile Apps, Logic Apps y Notification Hubs
-> -- Servicios de desarrollador: Visual Studio, Azure SDK, Team Project y Applications Insights
-> -- Integración: Storage Queues, BizTalk Services, Hybrid Connections y Service Bus
-> -- Analytics and IOT: HDInsight, Machine Learning, Data Factory, Event Hubs, Stream Analytics y Mobile Engagement
-> -- Datos: SQL Database, SQL Data Warehouse, Redis Cache, Search, cosmos DB y Tables
-> --Media and CDN: Media Services y Content Delivery Network (CDN)
+>   - Computo: Cloud Services, Services Fabric, Batch y Remote App
+>   - Web and mobile: Web Apps, API Apps, API Managment, Mobile Apps, Logic Apps y Notification Hubs
+>   - Servicios de desarrollador: Visual Studio, Azure SDK, Team Project y Applications Insights
+>   - Integración: Storage Queues, BizTalk Services, Hybrid Connections y Service Bus
+>   - Analytics and IOT: HDInsight, Machine Learning, Data Factory, Event Hubs, Stream Analytics y Mobile Engagement
+>   - Datos: SQL Database, SQL Data Warehouse, Redis Cache, Search, cosmos DB y Tables
+>   - Media and CDN: Media Services y Content Delivery Network (CDN)
 > - Operaciones Híbridas:
 > Azure AD Connect Health, Ad Privileged Identity Management, Backup, Operational Insights, Import/Export, Site Recovery y StorSimple
 > - Servicios de Seguridad
@@ -62,11 +62,11 @@ En este esquema el usuario (organización o empresa) es dueño de su nube pero a
 > Son áreas geográficas del planeta que tienen al menos uno centro de datos, pero potencialmente más, que son cercanos entre sí con una red de baja latencia.
 > - Geografías
 > Son regiones geopolíticas o fronteras entre paíces que tienen 2 o más regiones que preservan el almacenamiento de los datos. La geografía esta dividida en las siguientes áreas:
-> -- Americas
-> -- Europa
-> -- Asia Pacífico
-> -- Oriente Medio y África
-> - Zonas de disponibilidad
+>   - Americas
+>   - Europa
+>   - Asia Pacífico
+>   - Oriente Medio y África
+>   - Zonas de disponibilidad
 > Se llama así a las zonas conformada por centros de datos que interactuan entre sí guardando la información como duplicado una de otras, es decir la inforación de un centro de datos también esta almacenada en el otro centro de datos. Una condición importante es que los centros de datos deben estar lo suficiente separados uno de otro para no ser afectados por los mismos fenómenos naturales.
  > ### Cualidades de la nube Azure
  > - Escalabilidad
