@@ -19,4 +19,3 @@ Los equipos de computo pueden comunicarse o transmitir información principalmen
 - Servicios de plataforma
 - Servicios de Seguridad
 - Zonas de disponibilidad
-<button style="background:#FF0000">prueba botón</button>
