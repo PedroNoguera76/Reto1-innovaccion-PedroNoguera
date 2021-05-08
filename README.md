@@ -74,5 +74,18 @@ En este esquema el usuario (organización o empresa) es dueño de su nube pero a
  >      - Vertical: es la capacidad de incrementar memoria y procesador al servisio que ya se tiene.
  > - Elasticidad
  > - Agilidad
- > - Tolerancia a fallos
- > - Alta disponibilidad
+ > - Tolerancia a fallos: es la abilidad del sistema de recuperarse de fallos y poder continuar
+ > - Alta disponibilidad: debe estar disponible todo el tiempo
+
+ > - Acuerdo de Nivel de Servicio (SLA)
+ > Microsoft realiza un acuerdo de calidad de servicio con los usuarios a través de un decumento denominado SLA, este documento contiene los términos que definen los estándares de ejecución  que aplican para Azure
+ >      - SLA describe los compromisos de Microsoft Azure con estandares específicos de ejecución
+ >      - Existen SLAs para cada producto y servicio de Azure de forma individual
+ >      - SLAs también especifica que pasa si el servicio o producto falla
+ > En base a esto existen tres caraterísticas para las SLAs de Azure para productos y servicios:
+ >      - Etiquetas de desarrollo
+ >      - Garantía de conectividad
+ >      - Crédito de servicio: si Azure falla en sus acuerdos, ellos bonificarán un credito al usuario
+
+ > ### Creación de cuenta en Azure
+ >
