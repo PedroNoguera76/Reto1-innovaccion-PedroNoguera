@@ -10,6 +10,9 @@
 - Gasto de capital
 - Gasto operativo
 - Servicios que ofrece Azure
+- - IaaS
+- - PaaS
+- - SaaS
 - infraestructura de Azure
 - Cuentas y facturación
 - 
