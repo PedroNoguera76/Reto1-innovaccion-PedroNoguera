@@ -4,6 +4,9 @@
 - Computo
 - nube
 - tipos de nubes
+- - privada
+- - pública
+- - privada
 - Servicios que ofrece Azure
 - infraestructura de Azure
 - Cuentas y facturación
