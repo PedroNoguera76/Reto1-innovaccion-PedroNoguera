@@ -68,4 +68,11 @@ En este esquema el usuario (organización o empresa) es dueño de su nube pero a
 > -- Oriente Medio y África
 > - Zonas de disponibilidad
 > Se llama así a las zonas conformada por centros de datos que interactuan entre sí guardando la información como duplicado una de otras, es decir la inforación de un centro de datos también esta almacenada en el otro centro de datos. Una condición importante es que los centros de datos deben estar lo suficiente separados uno de otro para no ser afectados por los mismos fenómenos naturales.
- 
+ > ### Cualidades de la nube Azure
+ > - Escalabilidad
+ >      - Horizontal: es la capacidad de incrementar los recursos agregando máquinas virtuales.
+ >      - Vertical: es la capacidad de incrementar memoria y procesador al servisio que ya se tiene.
+ > - Elasticidad
+ > - Agilidad
+ > - Tolerancia a fallos
+ > - Alta disponibilidad
