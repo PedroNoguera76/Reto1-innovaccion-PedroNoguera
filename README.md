@@ -6,7 +6,7 @@
 - tipos de nubes
 - - privada
 - - pública
-- - privada
+- - hibrida
 - Servicios que ofrece Azure
 - infraestructura de Azure
 - Cuentas y facturación
