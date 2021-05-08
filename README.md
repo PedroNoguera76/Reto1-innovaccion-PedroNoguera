@@ -3,6 +3,7 @@
 - Computo
 ![partes de la computadora](/fotos/principales-partes-del-computador.jpg)
 - nube
+![nube](/fotos/AzureNube.jpg)
 - tipos de nubes
 - Servicios que ofrece Azure
 - infraestructura de Azure
