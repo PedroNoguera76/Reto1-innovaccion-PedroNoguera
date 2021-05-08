@@ -16,3 +16,7 @@
 - infraestructura de Azure
 - Cuentas y facturación
 - 
+### Servicios Azure
+- Servicios de infraestructura
+- Servicios de plataforma
+- Servicios de Seguridad
