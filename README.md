@@ -31,12 +31,12 @@ Se denomina así cuando los recursos y servicios de la nube están a disposició
 -- Nube híbrida </p>
 En este esquema el usuario (organización o empresa) es dueño de su nube pero además contrata los servicios de una nube pública para y correr algunas aplicaciones en estos servidores, de esta forma el usuario pude incrementar su capacidad de operación cuando lo requiera. </p>
 > - Servicios que ofrece las nubes
-    -- IAAS: Infraestructura como servicio <br>
-    La nube provee el servidor, maquina virtual con la memoria y procesamiento deseado pero el software y configuración corren por cuenta del usuario
-    -- PAAS: Plataforma como servicio <br>
-    La nube provee el servidor, memoria, procesamiento y sistema operativo pero el usuario debe instalar sus aplicaciones así como encargarse de toda la configuración de estas
-    -- SAAS: Software como servicio <br>
-    La nube provee tanto la infraestructura como el software que neesita el usuario para correr sus procesos
+    <p> -- IAAS: Infraestructura como servicio <br>
+    La nube provee el servidor, maquina virtual con la memoria y procesamiento deseado pero el software y configuración corren por cuenta del usuario </p>
+    -- PAAS: Plataforma como servicio </p>
+    La nube provee el servidor, memoria, procesamiento y sistema operativo pero el usuario debe instalar sus aplicaciones así como encargarse de toda la configuración de estas </p>
+    -- SAAS: Software como servicio </p>
+    La nube provee tanto la infraestructura como el software que neesita el usuario para correr sus procesos </p>
 > - infraestructura de Azure
 > - Cuentas y facturación
 >>
