@@ -40,8 +40,22 @@ En este esquema el usuario (organización o empresa) es dueño de su nube pero a
 > 
 > ### Servicios Azure
 > Azure es la nube de Microsoft que permite el uso de recursos y aplicaciones al rededor del mundo. Azure provee más de 100 servicios que permiten hacer cualquier cosa desde correr una aplicación existente hasta explorar nuevos paradigmas en software como inteligancia artificial y realidad aumentada.
+>   Los servicios más utilizados de Azure se pueden resumir de la siguiente forma:
 > - Servicios de infraestructura
+> -- Computo: Maquinas vituales y Contenedores
+> -- Almacenamiento: BLOB Storage, Azzure files, Premium Storage
+> -- Redes: Virtual Network, Load Balancer, DNS, Express Router, Traffic Manager, VPN Gateway y Application Gateway
 > - Servicios de plataforma
+> -- Computo: Cloud Services, Services Fabric, Batch y Remote App
+> -- Web and mobile: Web Apps, API Apps, API Managment, Mobile Apps, Logic Apps y Notification Hubs
+> -- Servicios de desarrollador: Visual Studio, Azure SDK, Team Project y Applications Insights
+> -- Integración: Storage Queues, BizTalk Services, Hybrid Connections y Service Bus
+> -- Analytics and IOT: HDInsight, Machine Learning, Data Factory, Event Hubs, Stream Analytics y Mobile Engagement
+> -- Datos: SQL Database, SQL Data Warehouse, Redis Cache, Search, cosmos DB y Tables
+> --Media and CDN: Media Services y Content Delivery Network (CDN)
+> - Operaciones Híbridas:
+> Azure AD Connect Health, Ad Privileged Identity Management, Backup, Operational Insights, Import/Export, Site Recovery y StorSimple
 > - Servicios de Seguridad
+> Portal, Active Directory, multi-Factor Authentication, Automation, Key Vault, Store/Marketplace y VM Image Gallery and VM Depot
 > - Zonas de disponibilidad
 > <button> boton </button> 
