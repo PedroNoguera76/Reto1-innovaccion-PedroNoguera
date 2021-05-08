@@ -1,6 +1,7 @@
 # Mi repositorio para el Reto 1
 ## Conceptos de Azure
 - Computo
+![partes de la computadora](/fotos/principales-partes-del-computador.jpg)
 - nube
 - tipos de nubes
 - Servicios que ofrece Azure
@@ -11,4 +12,4 @@
 - Servicios de infraestructura
 - Servicios de plataforma
 - Servicios de Seguridad
-Zonas de disponibilidad
+- Zonas de disponibilidad
