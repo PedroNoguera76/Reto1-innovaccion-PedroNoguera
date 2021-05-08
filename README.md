@@ -24,8 +24,19 @@ Pero el almacenamiento no es lo único, también se puede usar de forma remota q
 Por último otro de los servición de la nube es el uso de aplicaciones especializadas. <p>
 Existen tres tipos de nubes: <p>
 > ![nube](/fotos/AzureNube.jpg)
-> - tipos de nubes
-> - Servicios que ofrece Azure
+> - - <p> Nube privada: <br> 
+Una persona, organización o empresa es dueña de la infraestructura, es decir, de los servidores, el espacio físico donde estos se encuentran, se encarga del software y su configuración. El uso de este recurso es restringido y el mantenimiento es responsabilidad del dueño de la nube </p>
+-- Nube pública: </p>
+Se denomina así cuando los recursos y servicios de la nube están a disposición de cualquier usuario que desee contratar dicho servicio. Bajo este esquema el mantenimiento de la nube corre bajo la responsabilidad del dueño de la nube y el usuario no tiene de que preocuparse por eso. </p>
+-- Nube híbrida </p>
+En este esquema el usuario (organización o empresa) es dueño de su nube pero además contrata los servicios de una nube pública para y correr algunas aplicaciones en estos servidores, de esta forma el usuario pude incrementar su capacidad de operación cuando lo requiera. </p>
+> - Servicios que ofrece las nubes
+    -- IAAS: Infraestructura como servicio <br>
+    La nube provee el servidor, maquina virtual con la memoria y procesamiento deseado pero el software y configuración corren por cuenta del usuario
+    -- PAAS: Plataforma como servicio <br>
+    La nube provee el servidor, memoria, procesamiento y sistema operativo pero el usuario debe instalar sus aplicaciones así como encargarse de toda la configuración de estas
+    -- SAAS: Software como servicio <br>
+    La nube provee tanto la infraestructura como el software que neesita el usuario para correr sus procesos
 > - infraestructura de Azure
 > - Cuentas y facturación
 >>
