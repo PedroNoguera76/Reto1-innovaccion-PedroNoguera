@@ -5,7 +5,7 @@
 - nube
 - tipos de nubes
 - - privada
-- - pública
+- - pública: pagas por tiempo y servicio utilizado
 - - hibrida
 - Gasto de capital
 - Gasto operativo
