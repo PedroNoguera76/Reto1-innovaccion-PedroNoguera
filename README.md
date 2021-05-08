@@ -9,13 +9,13 @@
 La comunicación por medio de redes es la que permite la transferencia de datos con la mayor velocidad y es la más utilizada en la comunicación entre computadoras. </p>
 El lenguaje de comunicación se conoce como TCP/IP (Protocolo de Control de Transmisión/Protocolo de Internet). Mediante este leguaje se pueden transferir datos entre equipos de computo dentro de una misma infraestructura 8red local) o servidor y por medio de internet entre diferentes infraestructuras o servidores los cuales pueden estar ubicados incluso continentes diferentes, además esta comunicación permite que de manera remota se pueda operar un equipo de computo desde otra ubicación física </p>
 El modelo OSI explica las redes de comunicación en 7 capas o niveles: </p>
--- Nivel físico: Señal y transmisión binaria
--- Nivel de enlace de datos: direccionamiento físico
--- Nivel red: Determinación de rutae IP (direccionamiento lógico)
--- Nivel de transporte: conexión extremo- extremo y fiabilidad de los datos
--- Nivel sesión: comunicación entre dispositivos de la red
--- Nivel de Presentación: Representación de los datos
--- Nivel aplicación: servicios de red a aplicaciones
+-- Nivel físico: Señal y transmisión binaria </p>
+-- Nivel de enlace de datos: direccionamiento físico </p>
+-- Nivel red: Determinación de rutae IP (direccionamiento lógico) </p>
+-- Nivel de transporte: conexión extremo- extremo y fiabilidad de los datos </p>
+-- Nivel sesión: comunicación entre dispositivos de la red </p>
+-- Nivel de Presentación: Representación de los datos </p>
+-- Nivel aplicación: servicios de red a aplicaciones </p>
 > 
 > - <p> Nube <br>
 Conocido como el computo en la nube, es un sevicio que permite la disponibilidad y uso de recursos de almacenamiento y capacidad de computo, como memoria RAM y procecadores, de forma remota desde otro dispositivo de computo mediante el uso de redes. </p>
