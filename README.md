@@ -88,4 +88,9 @@ En este esquema el usuario (organización o empresa) es dueño de su nube pero a
  >      - Crédito de servicio: si Azure falla en sus acuerdos, ellos bonificarán un credito al usuario
 
  > ### Creación de cuenta en Azure
- >
+ >Con la creación de una cuenta Azure se pueden crear, probar e implementar aplicaciones empresariales. Además de crear aplicaciones web y experiencia mobiles, así como obtenger información de sus datos a través del aprendizaje automático y
+analítico 
+> - Existen diferentes tipos de cuentas
+> - Facturación en Azure
+> - Como crear una cuenta en Azure
+> - Como obtener ayuda y soporte
