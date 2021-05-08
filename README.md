@@ -57,5 +57,15 @@ En este esquema el usuario (organización o empresa) es dueño de su nube pero a
 > Azure AD Connect Health, Ad Privileged Identity Management, Backup, Operational Insights, Import/Export, Site Recovery y StorSimple
 > - Servicios de Seguridad
 > Portal, Active Directory, multi-Factor Authentication, Automation, Key Vault, Store/Marketplace y VM Image Gallery and VM Depot
+> ### Arquitectura de Azure
+> - Regiones: 
+> Son áreas geográficas del planeta que tienen al menos uno centro de datos, pero potencialmente más, que son cercanos entre sí con una red de baja latencia.
+> - Geografías
+> Son regiones geopolíticas o fronteras entre paíces que tienen 2 o más regiones que preservan el almacenamiento de los datos. La geografía esta dividida en las siguientes áreas:
+> -- Americas
+> -- Europa
+> -- Asia Pacífico
+> -- Oriente Medio y África
 > - Zonas de disponibilidad
-> <button> boton </button> 
+> Se llama así a las zonas conformada por centros de datos que interactuan entre sí guardando la información como duplicado una de otras, es decir la inforación de un centro de datos también esta almacenada en el otro centro de datos. Una condición importante es que los centros de datos deben estar lo suficiente separados uno de otro para no ser afectados por los mismos fenómenos naturales.
+ 
