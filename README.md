@@ -90,7 +90,20 @@ En este esquema el usuario (organización o empresa) es dueño de su nube pero a
  > ### Creación de cuenta en Azure
  >Con la creación de una cuenta Azure se pueden crear, probar e implementar aplicaciones empresariales. Además de crear aplicaciones web y experiencia mobiles, así como obtenger información de sus datos a través del aprendizaje automático y
 analítico 
-> - Existen diferentes tipos de cuentas
+> - Existen diferentes tipos de cuentas:
+> todas las cuentas se debe especificar el nomnre, email, información de contacto, información de facturación y tarjeta de crédito.
+>       - Subscripción gratuita: 
+> Esta suscripción incluye un crédito de 200 usd para ser utilizados en cualquier servicio durante un lapso de 30 días. libre acceso a los productos más populares de Azure durante 12 meses. Para crearla se necesita un número telefónico, una tarjeta de crédito y una cuenta de Microsoft.
+>       - Subscripción Pay-as-you-go:
+> En esta subscripción se cobra mensualmente por los servicios utilizados durante el periodo. esta es la más apropiada para la mayoría de los usuarios desde individuos hasta pequeñas empresas y algunas organizaciones grandes.
+>       - Subcripción Pay-as-you-go DEV/TEST
+> Esta esta diseñada para subcriptores de Visual Studio y se limita exclusivamente para desarrollo y pruebas
+>       - Azure Enterprise Agreement
+> esta provee la mayor flexibilidaden la compra de servicios en la nube, ademas de contar con descuentos de nuevas licencias de seguros de Softwares.
+>       - Subcripción Azure para estudiantes
+> Esta incluye un crédito de 100 usd para ser usado en los primeros 12 meses además de poder seleccionar servicios sin requerimeinto de tarjeta de crédito. Solo se tiene que demostrar que se es estudiante.
+>       - Múltiples subcripciones con una misma cuenta:
+> Es muy utilizado por empresas para controlar el acceso y facturación.
 > - Facturación en Azure
 > - Como crear una cuenta en Azure
 > - Como obtener ayuda y soporte
