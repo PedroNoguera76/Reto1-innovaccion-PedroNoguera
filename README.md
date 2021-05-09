@@ -105,5 +105,8 @@ analítico
 >      - Múltiples subcripciones con una misma cuenta:
 > Es muy utilizado por empresas para controlar el acceso y facturación.
 > - Facturación en Azure
+> https://docs.microsoft.com/es-es/azure/cost-management-billing/
 > - Como crear una cuenta en Azure
+> https://azure.microsoft.com/es-es/free/
 > - Como obtener ayuda y soporte
+> https://azure.microsoft.com/es-mx/support/options/#overview
