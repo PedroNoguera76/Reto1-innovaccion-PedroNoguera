@@ -96,3 +96,110 @@ En odas las cuentas se debe especificar el nombre, email, información de contac
 <br>
 <a href="https://azure.microsoft.com/es-mx/support/options/#overview">Ayuda y soporte</a>
 </ul>
+
+> ## Servicios de almacenamiento Azure
+> Una cuenta de almacenamiento proporciona un espacio de nombres únicos para los datos de Azure Storage, al que se puede acceder desde cualquier lugar del mundo a través de HTTP o HTTPs.
+- Azure Blob Storage: Puede almacenar grandes cantidades de datos, como datos de texto o binarios. No hay restricción en cuanto a los tipos de datos que puede contener. Se puede administrar miles de cargas simultáneas, cantidades de datos de video, registro en constatante crecimeinto y se puede acceder desde cualquier lugar con conexión a internet. No equiere que los desarrolladores piensen en discos. Almacenan en contenedores.
+        - Visualización de imágenes o documentos directamente en un explorador.
+        - almacenamiento de archivos para acceso distribuido.
+        - Streaming de audio y video
+        - Almacenamiento de datos para copia de seguridad y restauración, recuperación ante desastres y archivado.
+        - Almacenamiento de datos para el análisis en local o en un servicio hospedado de Azure.
+        - Almacenamiento de hasta 8 TB de datos para máquinas virtuales.
+- Azure disk storage: usado por la máquinas virtuales. Los datos se almacenan de forma persistente y se pueden acceder desde un disco virtual conectado.
+- Azure Files: Recursos compartidos de archivos totalmente administrados en la nube. Se tiene acceso mediante el protocolo del Bloque de mensaje del servidor y Network File Sytem. Se pueden montar simultaneamente en Windows, Linux y Macos en la nube o locales. (SMB)
+- Niveles de acceso de blob de Azure: son proporcionados para equilibrar los costos de almacenamiento con sus necesidades de acceso. Ayuda a almacenar datos de objetos de la manera más rentable.
+        - Nivel de acceso frecuente: optimizado para almecenar datos a los que se accede con frecuencia.
+        - Niveles de acceso esporádicos: optimizado para datos a los que se accede con poca frecuencia y que se almacena al menos durante 30 días
+        - Niveles de acceso de archivos: conviene para datos a los que raramente se accede y que se almacena durante al menos 180 días con requisito de latencia flexible.
+> - Los niveles de acceso frecuente y esporádico se puede establecer con nivel de cuenta. 
+> - Los niveles frecuente, esporádico y de archivo se pueden establecer en el nivel de blob durante la carga o después de esta.
+> - Los datos de nivel de acceso esporádico pueden tolerar una disponibilidad ligeramente inferior pero con características de rendimeinto similares a las de datos de acceso frecuente
+> - El almacenamiento de archivos almacena datos sin conexión y ofrece los menores costos de almacenamiento pero los mayores costos de acceso.
+
+> # Almacenamiento de datos en Azure
+
+>   Cosmos DB y SQL
+> - Estructuradas: Datos relacionados, son datos que se ajustan a un esquema estricto por lo que tienen un mismo campo y propiedades. Es fácil con SQL (Lenguaje de consulta estructurado). Son fáciles de escribir, consultar y analizar. Todos siguen el mismo formato
+> - Semiestructuradas: Son menos organizados y no se almacenan en forma racional. Contienen etiquetas que hacen evidentes la organización y jerarquía. Datos no relacionados o NoSQL. Lenguaje de serialización.
+        - XML: Extensible Markup Language. <>
+        - JSON: JavaScript Objet Notation. {} 
+        - YAML: YAML Ain´t Markup Language. Espacios
+    - Key- value: 
+    - Graph
+    - Document: 
+> - no estructurados: La organización es ambigua, a menudo se entrgan en archivos, fotos o videos. 
+Ejemplo: 
+        - Archivo multimedia, como fotos, videos y archivos de audio.
+        - Archivos de Office, como word
+        - Archivos de texto
+        - Archivos de registro
+
+> ### Necesidades de Operación
+> - Datos de catálogo de productos: Se requiere rapidez 
+> - Fotografías y videos: tiempos de recuperación rápidos solo se tienen que recuperar por su identificador. Las actualizaciones serían menos frecuentes y menos prioritarias.
+> - Datos empresariales: El análisis se produce en datos históricos, ningún datos se actualizara por el análisis, son de solo lectura. se puede tener cierta latencia en los resultados y se almacenaran en varios conjuntos de de datos.
+> - Resumen:  
+
+> ### Transacción
+Es un grupo lógico de operaciones que se ejecutan juntas
+> Garantías ACID: Atomicidad, Coherencia, aIslamiento y Durabilidad 
+>   - Atomicidad: Una transacción debe ejecutarse una vez y debe ser atómica, realizar el trabajo en su totalidad.
+>   - La coherencia: garantía que los datos sean coherentes tanto antes como después de la transacción
+>   - El aislamiento: garantiza que una transacción no se vea afectada por otra. 
+>   - La durabilidad: significa que los cambios realizados debido a la transacción se guardan de forma permanente en el sistema.
+> - Diferencias entre OLTP y OLAP: Bases de datos trancicionales (OLTP), admiten muchos usuarios, tienen tiempo de respuesta rápidos y controlan grandes volúmenes de datos, son altamente disponibles y controlan transacciones relativamente sencillas o pequeñas. Los sitemas OALP tienen tiempos de respuesta más largos, su disponibilidad puede ser menor y controlan transacciones grandes y complejas
+> - datos de catálogo de productos: se almacenan en datos transaccionales (OLTP)
+> - Fotografías y videos: No son transaccionales por naturaleza
+> - datos empresariales: No requieren ser transaccionales
+
+> ### Elección de una solución de amacenamiento en Azure
+> - datos de catálogo de productos
+>       - Clasificación de los datos: Semiestructurados
+        - alto rendimeinto y baja latencia
+        - Capacidad transaccional
+    - Se recomienda Azure Cosmos DB:
+    admite datos NoSQL, es compatible con ACID, es más adecuada que Azure SQL, Azure Table Storage, Azure HBase y Azure Cache
+
+
+> # Servicios de Azure Storage
+> - Duradero: la redundancia garantiza que los datos estén seguros. Lo datos replicados permaneces con una alta disponibilidad
+> - Seguro: El servicio cifra todos los datos escritos
+> - escalable: Se puede escalar de forma masiva
+> - Administrativo: Microsoft azure se encarga del matenimeinto y de cualquier problema
+
+> ## Servicios de datos Azure
+> - Blobs: un almacén de objetos que se pueden escalar de forma masiva
+> - Archivos: Recursos compartidos
+> - Colas: Un almacén de mensajería confiable
+> - table storage: un Nosql para el almacenamiento sin esquema de datos estructurados
+>Todos son accesibles desde cualquier lugar del mundo FTTP o HTTPS, proporcionan SDK y una API REST.
+> - Blob Storage:
+Es una solución de almacenamiento de objetos para el almacenamiento de cantidades masivas de datos no estructurados como texto o binarios
+        - Blobs en bloques
+        - blobs en páginas
+        - Blobs anexos
+> - Queues: se usa para almacenar y recuperar mensajes, pueden tener tamaños de hasta 64 kb
+
+> ## Creación de una cuanta de Azure Storage
+> - azure proporciona mucas formas de almacenar datos: Azure SQL Database, Azure Cosmos DB y Azure Table Storage. 
+> - Varias maneras de almacenar y enviar mensajes: Azure Queue y Event Hubs.
+> - almacenamiento de archivos dinámicos como Azure files y Azure Blobs.
+> - Azure Storage: son todos los servicios de almacenamiento primitivos basados en la nube
+>       - Azure Blobs
+>       - Azure files
+>       - Colas de Azure (Queues)
+>       - azure tablas
+
+> ### cuenta de almacenamiento
+es un contenedor que agrupa un conjunto de servicios de almacenamiento de Azure, en las cuentas de almacenamiento solo se pueden incluir servicios de Azure Storage.
+> - La cuenta incluye un grupo de recursos y un grupo de recursos puede contener 1 o más cuentas de almacenamiento
+> - Los servicios Azure SQL y Cosmos DB se administran como recursos independientes y no se pueden incluir en la cuenta de almacenamiento.
+
+>### Configuración de cuentas de almacenamiento
+Opciones de configuración que controla la cuenta:
+> - suscripción: a la que se facturan
+> - Location: centro de datos en el que almacenan
+> Rendimiento: discos físicos, servicio de datos:
+>       - Estándar: 
+>       - Premiun: 
