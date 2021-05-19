@@ -210,3 +210,53 @@ Opciones de configuración que controla la cuenta:
 
 > - diversidad de datos: lugar de consumo, grado de confiabilidad, grupo de facturación.
 Mayor diversidad implica mayor número de cuentas de almacenamiento
+> - susceptibilidad a los costos: la configuración afecta al costo de los servicios. La redundancia geográfica cuesta más que el local, el nivel de acceso premium aumenta el costo. Para reducir los costos se pueden crear varias cuentas en función del tipo de datos, críticos y no críticos. 
+> tolerancia a la sobrecarga de administración: Se recomeinda analizar los datos agrupandolos según la ubicación, facturación y estrategia de replicación.
+
+>### Configuración de la cuenta
+Opciones de configuración:
+        - Nombre: Debe ser único de forma Global en Azure, alfanumérico y debe tener entre 3 y 24 caracteres
+        - Modelo de implementación:
+                - Resource Manager: (modelo actual) permite decidir fácilmente qué modelo elegir. 
+                - Clásico: (oferta heredada)
+        - Tipo de cuenta:
+                - storageV2: oferta actual, compatible con todos los tipos de almacenamiento
+                - Storage: tipo heredado que admite todos los tipos de almacenamiento pero no todas las características
+                - Blob Storage: Tipo heredado que solo permite bloques y blobs en anexos
+
+>### Elección de una herramienta
+Interfaz gráfica y automatización, importantes para tomar la decisión:
+> Herramientas disponibles:
+>       - Azure portal
+>       - CLI de Azure
+>       - Azure PowerShell
+>       - Bibliotecas de clientes de administración: permite crear una aplicación cliente
+
+ ## Disco de almacenamiento VM
+ Discos locales y administrados no administrados
+ > - Roles de discos
+ >      - Disco SO: Sistema operativo, el disco tiene una capacidad maxima de 2048 GB
+ >      - Discos de datos: Puede agregar uno o más datos a cada máquina virtual para lamecenar datos, la capacidad máxima de cada disco es de 32767 GB
+ >      - Disco temporal: es solo uno, almacenamiento a corto plazo, se pierde la información en el mantenimiento
+
+ > - Discos OP efímeros: almacena localmente los datos, tienen una latencia más rápida que el administrado. Pero un error podría destruir toda la información. No incurren en costos de almacenamiento y son gratuitos.
+ > - discos Administrados: son fáciles de usar, Azure los administra, se almacenan como blobs en páginas Azure Storage, pero no se necesita crear personalmente la cuenta. Las ventajas se resumen:
+ >              - Escalabilidad sencilla: se pueden crear hasta 50000 discos administrados en cada región.
+ >              - Alta disponibilidad: 99.999%, almacenan los datos 3 veces.
+ >              - integración con conjuntos de disponibilidad y zonas: 
+ >              - Compatibilidad con Azure blackup: admite de forma nativa los discos administrados.
+ > - Control de aceso pormenorizado: se puede usar RBAC, acceso basado en rol
+ >              - compatibilidad con cifrado: Storage Service Encryption (SSE). Azure Disk encryption (ADE) y DM-Crupt
+
+ > - Discos no administrados: se almacena como blob en páginas de Azure Storage. Se crea y se mantiene de forma manual. Se debe administrar la seguridad. No se usan con tanta frecuencia.
+
+ > ### Rendimiento de discos 
+ Operaciones de entrada y salida por segundo (IOPS). Velocidad del disco. Rendimiento velocidad de transferencia de datos.
+ > - SSD: disco sólido tienen mayor capacidad IOPS
+ >        - SSD Ultra: el mayor IOPS y rendimiento: no admiten imagenes de máquinas virtuales
+ >        - SSD premiun: intermedio
+ >        - SSD: estándar: bajo. Proporciona 25MBS pero no los garantiza
+ > - HDD estándar:  menor IOPS que SSD estándar pero mayor rendimiento
+
+ >## cosmos DB
+ Es fexible, almacena los datos en forma de registro de átomos (ARS). Como opciones se incluyen: SQL, MongoDB, Cassandra, Tables y Gremlin. por lo que se puede migrar facilmente entre diferentes empresas.
