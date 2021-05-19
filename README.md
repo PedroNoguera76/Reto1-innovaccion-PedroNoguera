@@ -201,5 +201,12 @@ Opciones de configuración que controla la cuenta:
 > - suscripción: a la que se facturan
 > - Location: centro de datos en el que almacenan
 > Rendimiento: discos físicos, servicio de datos:
->       - Estándar: 
->       - Premiun: 
+>       - Estándar: cualquier servicio de datos y discos magnéticos
+>       - Premiun: Servicios adicionales y unidades sólidas
+> - replicación: Es la estrategia que se usa para realizar copias de datos. De forma automática 3 copias, LRS redundancia local. GRS replicación en otros centros de datos de cualquier parte del mundo
+> - nivel de acceso: rapidez de acceso a los blobs de la cuenta. Frecuente y esporádico
+> - Se requiere transferencia segura: característica de seguridad: HTTO y HTTPs
+> - redes virtuales: característica de seguridad de recibir solicitudes de acceso para las redes virtuales especificadas
+
+> - diversidad de datos: lugar de consumo, grado de confiabilidad, grupo de facturación.
+Mayor diversidad implica mayor número de cuentas de almacenamiento
